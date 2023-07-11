@@ -1,0 +1,111 @@
+.container-fluid{
+  padding : 1% 1%;
+}
+
+h1{
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 3rem;
+  line-height: 3;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.navbar{
+  padding: 0 0;
+  background-color: #E4FBFF;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.navbar-nav{
+  margin-left: 40%;
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+.nav-item{
+  padding: 0 10px;
+  
+}
+
+.nav-link{
+  padding-right: 209px;
+  justify-content:flex-end;
+
+}
+.carousel-item{
+  width: 100%;
+  height: 500px;
+}
+#press{
+  background-color: #81F5FF;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+h3{
+  font-family:Montserrat;
+  font-weight: bold;
+}
+#cta{
+  text-align: center;
+  background-color: white;
+}
+.footer{
+  font-size: 2rem;
+  padding:  1% 1% 0;
+  margin: 0;
+  background-color: #E4FBFF;
+}
+.add{
+  font-size: 1rem;
+  padding:  1% 1%;
+  text-align: center;
+  margin-top: 0;
+  background-color: #E4FBFF;
+}
+/* shooter*/
+.shooter{
+  font-size: 1rem;
+  font-family:Montserrat;
+  font-weight: bold;
+  color: black;
+  /* margin: 0; */
+  background-color: #E4FBFF;
+  position:relative;
+  bottom:0;
+}
+.shooter h3{
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+}
+.shooter h2{
+  font-size: 1.5rem;
+  /* font-family: cursive; */
+  text-align: center;
+}
+.shooter h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.shooter h6{
+  font-family: cursive;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.copy{
+  font-family: cursive;
+  font-size: 0.9rem;
+  text-align: center;
+}
