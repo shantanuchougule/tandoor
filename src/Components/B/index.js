@@ -25,7 +25,7 @@ function B() {
                 <Link className="nav-link active" aria-current="page" to="/B"><img src="dishes.svg" alt="heart"/> Dishes</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/C"><img src="price.svg" alt="heart"/> Pricing</Link>
+                <Link className="nav-link"  to="/C"><img src="book.svg" width="24"alt="heart"/> Book</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/D"><img src="contact.svg" alt="heart"/> Contact</Link>
@@ -41,6 +41,7 @@ function B() {
 
         <body>
                 <div className="album py-5 bg-light">
+                <h3 class="mt-2 pt-5 pb-2">Dishes We Provide</h3>
                     <div className="container">
                         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                             <div className="col">

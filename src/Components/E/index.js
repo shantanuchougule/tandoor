@@ -21,7 +21,7 @@ function E() {
                                     <Link className="nav-link" to="/B"><img src="dishes.svg" alt="heart" /> Dishes</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link " to="/C"><img src="price.svg" alt="heart" /> Pricing</Link>
+                                    <Link className="nav-link " to="/C"><img src="book.svg" width="24"alt="heart"/> Book</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/D"><img src="contact.svg" alt="heart" /> Contact</Link>
@@ -38,14 +38,14 @@ function E() {
         {/* sgsggsggg */}
         <section className="section" id="about">
         <div className="container mt-5 pt-5 pb-3">
-        <h3 className="py-">About Us</h3>
+        <h3 className="py-3">About Us</h3>
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-xs-12">
                     <div className="left-text-content">
                         <div className="section-heading">
                             <h2>We Leave A Delicious Memory For You</h2>
                         </div>
-                        <p>Klassy Cafe is one of the best <a href="/A" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br></br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                        <p>Hotels are one of the most important industries in the world. They are an essential part of a traveler’s experience. The hotel industry is also a large, global industry with significant revenue and importance to the economy. The key to hotels remaining relevant is by having an online web presence. When one is writing about hotels it’s important to create an exceptional description of hotels that includes topics that are pertinent to their target audience and include accurate information about them. Also, make sure a hotel’s website is up-to-date. This will help land a hotel’s booking call to action goal for all its services and products.</p>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-xs-12">

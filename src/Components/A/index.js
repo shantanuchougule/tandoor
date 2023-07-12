@@ -21,7 +21,7 @@ function A() {
                 <Link className="nav-link" to="/B"><img src="dishes.svg" alt="heart"/> Dishes</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/C"><img src="price.svg" alt="heart"/> Pricing</Link>
+                <Link className="nav-link" to="/C"><img src="book.svg" width="24"alt="heart"/> Book</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/D"><img src="contact.svg" alt="heart"/> Contact</Link>

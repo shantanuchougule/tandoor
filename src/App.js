@@ -2,6 +2,7 @@ import './App.css';
 import A from './Components/A';
 import B from './Components/B';
 import C from './Components/C';
+import Collegefrom from './Components/Collegefrom';
 import D from './Components/D';
 import E from './Components/E';
 import ReactDOM from "react-dom/client";
@@ -17,7 +18,8 @@ function App() {
           <Route path="B" element={<B />} />
           <Route path="C" element={<C />} />
           <Route path="D" element={<D />} />
-          <Route path="E" element={<E/>} />
+          <Route path="E" element={<E />} />
+          <Route path="collegefrom" element={ <Collegefrom/>} />
       </Routes>
     </div>
   );

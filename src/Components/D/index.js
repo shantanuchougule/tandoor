@@ -1,6 +1,7 @@
 import React from 'react';
 import './CompD.css';
 import { Link } from 'react-router-dom';
+import Collegefrom from '../Collegefrom';
 
 function D() {
     return (
@@ -21,7 +22,7 @@ function D() {
                                     <Link className="nav-link" to="/B"><img src="dishes.svg" alt="heart" /> Dishes</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link "  to="/C"><img src="price.svg" alt="heart" /> Pricing</Link>
+                                    <Link className="nav-link " to="/C"><img src="book.svg" width="24"alt="heart"/> Book</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link active" aria-current="page" to="/D"><img src="contact.svg" alt="heart" /> Contact</Link>
@@ -49,7 +50,7 @@ function D() {
                             frameborder="0" style={{minheight: "350px" ,border:"0"}} allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
                     </div>
-                    <div class="col-md-6">
+                    {/* <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
                                 <div class="row g-3">
@@ -83,8 +84,16 @@ function D() {
                                 </div>
                             </form>
                         </div>
-                    </div>
+                  </div> */}
+            <div class="col-md-6">
+                 <div class="row row-cols-2 border">
+                <div class="p-5 col-md-6 border"><h5><img src="home.svg" alt="heart"/> Address</h5><h6>Shop No. 17/18,beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur.</h6></div>
+                <div class="p-5 col-md-6 border"><h5><img src="call.svg" alt="call"/> Call us</h5><h6>02312524007</h6><h6>7030366878</h6></div>
+                <div class="p-5 col-md-6 border"><h5><img src="mail.svg" alt="mail"/> Mail us</h5><h6>tandoor@gmail.com</h6></div>
+                <div class="p-5 col-md-6 border"><h5><img src="time.svg" alt="time"/> Timing</h5><h6>11:00am to 11:00pm</h6></div>
                 </div>
+                </div> 
+            </div>
             </div>
         </div>
       
@@ -93,16 +102,12 @@ function D() {
         {/* gggsgs */}
 
 
-        <div class="row g-4 container bg-light mx-auto pb-5">
-        <div class="col-md-6">
-                 <div class="row row-cols-2 border">
-                <div class="p-5 col-12 border"><h5><img src="home.svg" alt="heart"/> Address</h5><h6>Shop No. 17/18,beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur.</h6></div>
-                <div class="p-5 col-12 border"><h5><img src="call.svg" alt="call"/> Call us</h5><h6>02312524007</h6><h6>7030366878</h6></div>
-                <div class="p-5 col-12 border"><h5><img src="mail.svg" alt="mail"/> Mail us</h5><h6>tandoor@gmail.com</h6></div>
-                <div class="p-5 col-12 border"><h5><img src="time.svg" alt="time"/> Timing</h5><h6>11:00am to 11:00pm</h6></div>
-                </div>
-        </div>
-                <div class="col-md-6">
+        {/* <div class="row g-4 container bg-light mx-auto pb-5">
+        
+        <div class="col-md-6"> */}
+               
+                {/* </div>   */}
+                {/* <div class="col-md-6">
                     <div class="wow fadeInUp" data-wow-delay="0.2s">
                         <form>
                             <div class="row g-3">
@@ -136,8 +141,8 @@ function D() {
                             </div>
                         </form>
                     </div>
-                </div>
-            </div>
+                </div> */}
+            {/* </div> */}
             <div className="shooter container-fluid">
                 <h3>Best Chicken Dishes in Kolhapur City</h3>
                 <div className="row">
