@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tandoor/static/css/main.116eae4d.css",
+    "main.js": "/tandoor/static/js/main.ef1a25b2.js",
+    "static/js/787.b7d6e424.chunk.js": "/tandoor/static/js/787.b7d6e424.chunk.js",
+    "index.html": "/tandoor/index.html",
+    "main.116eae4d.css.map": "/tandoor/static/css/main.116eae4d.css.map",
+    "main.ef1a25b2.js.map": "/tandoor/static/js/main.ef1a25b2.js.map",
+    "787.b7d6e424.chunk.js.map": "/tandoor/static/js/787.b7d6e424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116eae4d.css",
+    "static/js/main.ef1a25b2.js"
+  ]
+}
