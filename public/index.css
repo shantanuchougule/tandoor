@@ -115,3 +115,145 @@ h3{
   font-size: 0.9rem;
   text-align: center;
 }
+#chefs {
+ background-color: #97d4db;
+ color: #000000;
+}
+
+#chefs .section-heading {
+  margin-bottom: 70px;
+}
+
+#chefs .section-heading h6 {
+  padding-left: 0px;
+}
+
+#chefs .section-heading h6:before {
+  display: none;
+}
+
+#chefs .chef-item {
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 0;
+  transition: all .5s;
+  border-radius: 0;
+}
+
+#chefs .chef-item:hover {
+  border-color: #ffffff;
+}
+
+#chefs .chef-item:hover .down-content h4 {
+  color: #ffffff;
+}
+
+#chefs .chef-item .thumb {
+  position: relative;
+}
+
+#chefs .chef-item .thumb img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#chefs .chef-item .thumb .overlay {
+  position: absolute;
+  background-color: #2a2a2a;
+  border-radius: 3px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+#chefs .chef-item .thumb ul.social-icons {
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#chefs .chef-item .thumb ul.social-icons li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+#chefs .chef-item .thumb ul.social-icons li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #2a2a2a;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+#chefs .chef-item .thumb ul.social-icons li a:hover {
+  background-color: #d1b5b2;
+}
+
+#chefs .chef-item:hover .overlay {
+  opacity: .9;
+  visibility: visible;
+}
+
+#chefs .chef-item:hover ul.social-icons {
+  opacity: 1;
+  visibility: visible;
+}
+
+#chefs .chef-item .down-content {
+  padding: 20px 0px;
+}
+
+#chefs .chef-item .down-content h4 {
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#chefs .chef-item .down-content span {
+  font-size: 14px;
+  color: #2a2a2a;
+}
+#ser {
+  background-color: #ffffff;
+  color: #131111;
+  font-family: cursive;
+  font-size: 0.9rem;
+  text-align: center;
+}
+#ser .service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    background-color:#75c3d1;
+    transition: .5s;
+    border: 2px solid #092485;
+}
+
+#ser .service-item:hover {
+    background: var(--primary);
+    background-color: #E4FBFF;
+}
+
+#ser .service-item * {
+    transition: .2s;
+    color: #ffffff;
+}
+
+#ser .service-item:hover * {
+    color: var(--light) !important;
+}

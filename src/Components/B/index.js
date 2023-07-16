@@ -53,10 +53,8 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron smooky rice.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => setColor("just bought")}>Buy</button>
-                                            </div>
-                                            <small className="text-muted">  <h6>I  {color}!</h6></small>
+            
+                                        <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
                                 </div>
@@ -70,9 +68,6 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text"> Chicken masala is a simple Indian dish made with chicken, spices, herbs, onions and tomatoes. Serve with rice, naan, roti or paratha.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -87,9 +82,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Tandoori chicken is a popular Indian dish where marinated chicken is grilled to perfection in a Tandoor, a cylindrical clay oven.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -104,9 +97,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Chicken Tikka are boneless pieces of chicken, marinated in spiced yogurt, threaded on a metal skewer and cooked on live charcoal.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -121,9 +112,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Chicken kebabs are so simple to make, they are basically marinaded chicken, threaded onto skewers and cooked through.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -138,9 +127,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -155,9 +142,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Chicken Biryani is a delicious savory rice dish that is loaded with spicy marinated chicken, caramelized onions, and flavorful saffron smooky rice.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -172,9 +157,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text"> Chicken masala is a simple Indian dish made with chicken, spices, herbs, onions and tomatoes. Serve with rice, naan, roti or paratha.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>
@@ -189,9 +172,7 @@ function B() {
                                     <div className="card-body">
                                         <p className="card-text">Tandoori chicken is a popular Indian dish where marinated chicken is grilled to perfection in a Tandoor, a cylindrical clay oven.</p>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-secondary" onClick={buy}>Buy</button>
-                                            </div>
+                                         
                                             <small className="text-muted">300Rs</small>
                                         </div>
                                     </div>

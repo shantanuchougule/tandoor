@@ -9,6 +9,7 @@ import {
 } from "../Helper/collegefrom";
 const { TextArea } = Input;
 
+
 const Collegefrom = () => {
   const [loading, setLoading] = useState(false);
   const [orderdata, setOrderdata] = useState(null);
@@ -29,12 +30,12 @@ const Collegefrom = () => {
           console.log(" success");
           // alert('Success');
           swal("College", "success Fully", "success");
-          // console.log("res", res);
+          console.log("res", res);
           // navigate("/")
           setLoading(false);
         },
         (err) => {
-          // console.log("error");
+          console.log("error");
           setLoading(false);
           swal("College", "invalid ", "error");
         }
@@ -44,11 +45,11 @@ const Collegefrom = () => {
 
   return (
     <>
-      <div variant="h5" className="mx-auto">
+      <div variant="h5" className="form mx-auto ">
         {/* <small className="textblack-50">Home</small> {"/"} <b>College From</b> */}  
       </div>
       <div item lg={12} sm={24} xs={12}></div>
-      <Card className="col-md-8 mx-auto text-center p-4">
+      <Card className="col-md-8 mx-auto text-center p-4 mb-2">
         <div className="driver-create-card ">
         <h3 class="mb-5">Book Your Table Online</h3>
           <div item lg={12} sm={24} xs={12}>
@@ -106,7 +107,7 @@ const Collegefrom = () => {
                   rules={[
                     {
                       required: true,
-                      message: "Please Enter your message!",
+                      message: "Please Enter your People",
                     },
                   ]}
                   hasFeedback

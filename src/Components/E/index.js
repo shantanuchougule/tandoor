@@ -58,6 +58,10 @@ function E() {
             </div>
         </div>
     </section>
+    {/* <!-- Testimonial Start -->/ */}
+
+        {/* <!-- Testimonial End --> */}
+        
             {/* sgsgsg */}
             <div className="shooter container-fluid">
                 <h3>Best Chicken Dishes in Kolhapur City</h3>

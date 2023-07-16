@@ -89,10 +89,162 @@ function A() {
     </section>
 
     <section id="cta">
-      <h3 className="footer">Best Chicken Dishes in Kolhapur City</h3>
+      <h3 className="footer pt-3">Best Chicken Dishes in Kolhapur City</h3>
     </section>
-    <h5 className="add">BestShop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</h5>
-    
+    <h5 className="add mb-0 pb-3">BestShop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</h5>
+    {/* <!-- Team Start --> */}
+    <section class="section" id="chefs">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4 text-center">
+                    <div class="section-heading">
+                        <h3>Our Chefs</h3>
+                        <h6>We offer the best ingredients for you</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-4">
+                    <div class="chef-item">
+                        <div class="thumb">
+                            <div class="overlay"></div>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                            <img src="chefs-01.jpg" alt="Chef #1"/>
+                        </div>
+                        <div class="down-content">
+                            <h4>Aniket Walker</h4>
+                            <span>Tandoor Chef</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="chef-item">
+                        <div class="thumb">
+                            <div class="overlay"></div>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                            <img src="chefs-02.jpg" alt="Chef #2"/>
+                        </div>
+                        <div class="down-content">
+                            <h4>Vinayak Martin</h4>
+                            <span>Cury Chef</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="chef-item">
+                        <div class="thumb">
+                            <div class="overlay"></div>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            </ul>
+                            <img src="chefs-03.jpg" alt="Chef #3"/>
+                        </div>
+                        <div class="down-content">
+                            <h4>Abhijeet Perkson</h4>
+                            <span>Biryani Chef</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        {/* <!-- Team End --> */}
+      {/* <!-- Service Start --> */}
+        <section class="section" id="ser">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h3>Our Services</h3>
+                <h6>We offer the best services for you</h6>
+                </div>
+                <div class="row g-4 pt-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5>Master Chefs</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Quality Food</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Online Order</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>24/7 Service</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5>Master Chefs</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Quality Food</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Online Order</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>24/7 Service</h5>
+                                <p>This are the services we provide you in this restaurant tandoor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        {/* <!-- Service End --> */}
     <div className="shooter container-fluid fixed-bottom">
                 <h3>Best Chicken Dishes in Kolhapur City</h3>
                 <div className="row">
